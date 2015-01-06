@@ -11,6 +11,15 @@ Stepper Motor Driver based on a [Trinamic TMC2100](http://www.trinamic.com/produ
 
 
 # Demonstration and Review
+
+Demonstration (German):
 [![SilentStepStick/TMC2100 Demonstration](http://img.youtube.com/vi/0l-HlntFYOY/0.jpg)](https://www.youtube.com/watch?v=0l-HlntFYOY)
 
+Review from Thomas:
 [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/g6Bxoqr8QlY/0.jpg)](https://www.youtube.com/watch?v=g6Bxoqr8QlY)
+
+Test from Anthony:
+[![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/CZOV0BdgSiU/0.jpg)](https://www.youtube.com/watch?v=CZOV0BdgSiU)
+
+Test from Mario:
+[![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/mJmg0iRHX8s/0.jpg)](https://www.youtube.com/watch?v=mJmg0iRHX8s)
