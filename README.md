@@ -3,6 +3,7 @@ Stepper Motor Driver based on a [Trinamic TMC2100](http://www.trinamic.com/produ
 
 
 ## Features
+* Hardware compatible with [StepStick](http://reprap.org/wiki/StepStick) and [Pololu A4988](https://www.pololu.com/product/1182)
 * Drive capability up to 1.2A continuous coil current
 * Step/Dir interface with microstep interpolation (up to 256 microsteps)
 * Motor voltage: 4.75...46V
