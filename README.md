@@ -17,6 +17,7 @@ Shop: [SilentStepStick](http://www.watterott.com/en/SilentStepStick)
 
 ## Hardware
 * [Schematics + Layout](https://github.com/watterott/SilentStepStick/tree/master/pcb)
+* [FAQ (Frequently Asked Questions)](https://github.com/watterott/SilentStepStick/blob/master/docu/FAQ.md)
 
 
 ## Demonstrations and Reviews
@@ -27,6 +28,10 @@ Demonstration (German):
 Review from Thomas:
 
 [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/g6Bxoqr8QlY/0.jpg)](https://www.youtube.com/watch?v=g6Bxoqr8QlY)
+
+Review from Peter:
+
+[![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/P3ebhi-vZRY/0.jpg)](https://www.youtube.com/watch?v=P3ebhi-vZRY)
 
 Test from Anthony:
 
