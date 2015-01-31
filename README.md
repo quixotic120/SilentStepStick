@@ -20,20 +20,21 @@ Shop: [SilentStepStick](http://www.watterott.com/en/SilentStepStick)
 * [FAQ (Frequently Asked Questions)](https://github.com/watterott/SilentStepStick/blob/master/docu/FAQ.md)
 
 
-## Demonstrations and Reviews
-Demonstration (German):
-
-[![SilentStepStick/TMC2100 Demonstration](http://img.youtube.com/vi/0l-HlntFYOY/0.jpg)](https://www.youtube.com/watch?v=0l-HlntFYOY)
+## Demonstrations and Reviews and Tests
 
 Review from Thomas:
 
 [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/g6Bxoqr8QlY/0.jpg)](https://www.youtube.com/watch?v=g6Bxoqr8QlY)
 
-[![SilentStepStick/TMC2100 Demonstration](http://img.youtube.com/vi/mYuZqx8xwTg/0.jpg)](https://www.youtube.com/watch?v=mYuZqx8xwTg)
+[![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/mYuZqx8xwTg/0.jpg)](https://www.youtube.com/watch?v=mYuZqx8xwTg)
 
 Review from Peter:
 
 [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/P3ebhi-vZRY/0.jpg)](https://www.youtube.com/watch?v=P3ebhi-vZRY)
+
+Test from Aleks:
+
+[![SilentStepStick/TMC2100 Test](http://img.youtube.com/vi/33jQ0P7SMJA/0.jpg)](https://www.youtube.com/watch?v=33jQ0P7SMJA)
 
 Test from Anthony:
 
