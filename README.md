@@ -20,26 +20,24 @@ Shop: [SilentStepStick](http://www.watterott.com/en/SilentStepStick)
 * [FAQ (Frequently Asked Questions)](https://github.com/watterott/SilentStepStick/blob/master/docu/FAQ.md)
 
 
-## Demonstrations and Reviews and Tests
+## Reviews and Tests
 
-Review from Thomas:
+* Review from Thomas:
 
-[![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/g6Bxoqr8QlY/0.jpg)](https://www.youtube.com/watch?v=g6Bxoqr8QlY)
+  [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/g6Bxoqr8QlY/0.jpg)](https://www.youtube.com/watch?v=g6Bxoqr8QlY)
 
-[![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/mYuZqx8xwTg/0.jpg)](https://www.youtube.com/watch?v=mYuZqx8xwTg)
+  [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/mYuZqx8xwTg/0.jpg)](https://www.youtube.com/watch?v=mYuZqx8xwTg)
 
-Review from Peter:
+* Review from Peter:
 
-[![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/P3ebhi-vZRY/0.jpg)](https://www.youtube.com/watch?v=P3ebhi-vZRY)
+  [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/P3ebhi-vZRY/0.jpg)](https://www.youtube.com/watch?v=P3ebhi-vZRY)
 
-Test from Aleks:
+* [Test from Aleks (RepRap Prusa i3)](https://www.youtube.com/watch?v=33jQ0P7SMJA)
 
-[![SilentStepStick/TMC2100 Test](http://img.youtube.com/vi/33jQ0P7SMJA/0.jpg)](https://www.youtube.com/watch?v=33jQ0P7SMJA)
+* [Test from Anthony (Delta Printer)](https://www.youtube.com/watch?v=CZOV0BdgSiU)
 
-Test from Anthony:
+* [Test from Mario](https://www.youtube.com/watch?v=mJmg0iRHX8s)
 
-[![SilentStepStick/TMC2100 Test](http://img.youtube.com/vi/CZOV0BdgSiU/0.jpg)](https://www.youtube.com/watch?v=CZOV0BdgSiU)
+* [Test from Yusuke Sasaki](https://www.youtube.com/watch?v=wrS7l46YJ_E) ([Test A4988](https://www.youtube.com/watch?v=iw6MRjzS6V4))
 
-Test from Mario:
-
-[![SilentStepStick/TMC2100 Test](http://img.youtube.com/vi/mJmg0iRHX8s/0.jpg)](https://www.youtube.com/watch?v=mJmg0iRHX8s)
+* [Test from xenlase (Ultimaker)](https://www.youtube.com/watch?v=0jPbzB7XtWg)
