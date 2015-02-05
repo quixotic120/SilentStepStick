@@ -41,3 +41,7 @@ Shop: [SilentStepStick](http://www.watterott.com/en/SilentStepStick)
 * [Test from Yusuke Sasaki](https://www.youtube.com/watch?v=wrS7l46YJ_E) ([Test A4988](https://www.youtube.com/watch?v=iw6MRjzS6V4))
 
 * [Test from xenlase (Ultimaker)](https://www.youtube.com/watch?v=0jPbzB7XtWg)
+
+* [Test from Aitor Esteve Alvarado (Ninja Prusa i3)](https://www.youtube.com/watch?v=c_TCVirnKJ0)
+
+* [Test from Artur Wronowski (Delta Printer)](https://www.youtube.com/watch?v=hH2UkAmbfYs)
