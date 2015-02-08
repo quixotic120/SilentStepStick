@@ -32,15 +32,17 @@ Shop: [SilentStepStick](http://www.watterott.com/en/SilentStepStick)
 
   [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/P3ebhi-vZRY/0.jpg)](https://www.youtube.com/watch?v=P3ebhi-vZRY)
 
+* [Test from Watterott](https://www.youtube.com/watch?v=0l-HlntFYOY)
+
 * [Test from Aleks (RepRap Prusa i3)](https://www.youtube.com/watch?v=33jQ0P7SMJA)
 
 * [Test from Anthony (Delta Printer)](https://www.youtube.com/watch?v=CZOV0BdgSiU)
 
 * [Test from Mario](https://www.youtube.com/watch?v=mJmg0iRHX8s)
 
-* [Test from Yusuke Sasaki](https://www.youtube.com/watch?v=wrS7l46YJ_E) ([Test A4988](https://www.youtube.com/watch?v=iw6MRjzS6V4))
+* Tests from Yusuke Sasaki: [steahlChop](https://www.youtube.com/watch?v=wrS7l46YJ_E), [spreadCycle](https://www.youtube.com/watch?v=391TY72wzPQ), [stealthChop Delta Printer](https://www.youtube.com/watch?v=iw6MRjzS6V4), [A4988](https://www.youtube.com/watch?v=iw6MRjzS6V4)
 
-* [Test from xenlase (Ultimaker)](https://www.youtube.com/watch?v=0jPbzB7XtWg)
+* Tests from xenlase: [Ultimaker](https://www.youtube.com/watch?v=0jPbzB7XtWg), [Ultimaker](https://www.youtube.com/watch?v=cfk911ByUWc)
 
 * [Test from Aitor Esteve Alvarado (Ninja Prusa i3)](https://www.youtube.com/watch?v=c_TCVirnKJ0)
 
