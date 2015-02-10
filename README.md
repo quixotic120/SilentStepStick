@@ -16,8 +16,9 @@ Shop: [SilentStepStick](http://www.watterott.com/en/SilentStepStick)
 
 
 ## Hardware
-* [Schematics + Layout](https://github.com/watterott/SilentStepStick/tree/master/pcb)
+* [Schematics with Guide](https://github.com/watterott/SilentStepStick/raw/master/pcb/SilentStepStick_v10.pdf)
 * [FAQ (Frequently Asked Questions)](https://github.com/watterott/SilentStepStick/blob/master/docu/FAQ.md)
+* [Schematics + Layout](https://github.com/watterott/SilentStepStick/tree/master/pcb)
 
 
 ## Reviews and Tests
