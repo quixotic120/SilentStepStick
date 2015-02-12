@@ -1,9 +1,12 @@
 # SilentStepStick
 Stepper Motor Driver based on a [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) (StepStick and Pololu A4988 compatible) .
 
-Shop: [SilentStepStick](http://www.watterott.com/en/SilentStepStick)
-
 [![SilentStepStick](https://raw.github.com/watterott/SilentStepStick/master/pcb/SilentStepStick_v10.jpg)](http://www.watterott.com/en/SilentStepStick)
+
+
+## Shop
+* [SilentStepStick Stepper Motor Driver](http://www.watterott.com/en/SilentStepStick)
+* [Suitable Heatsink](http://www.watterott.com/en/Pin-heatsink-square-ICK-S-10-x-10-x-125)
 
 
 ## Features

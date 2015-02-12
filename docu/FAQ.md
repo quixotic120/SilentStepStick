@@ -13,3 +13,7 @@ The maximum motor current is 1.77A and is set via the 0.11Ohm sense resistors.
 Example: A voltage of 1.0V on Vref sets the motor current to 0.71A.
 
 ```Irms = (Vref * 1.77A) / 2.5V```
+
+
+## Where can I find more information on the settings and operation modes?
+More information can be found in the [SilentStepStick schematics](https://github.com/watterott/SilentStepStick/tree/master/pcb) and [TMC2100 datasheet](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100).
