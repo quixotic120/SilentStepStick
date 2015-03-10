@@ -6,7 +6,8 @@ Stepper Motor Driver based on a [Trinamic TMC2100](http://www.trinamic.com/produ
 
 ## Shop
 * [SilentStepStick Stepper Motor Driver](http://www.watterott.com/en/SilentStepStick)
-* [Suitable Heatsink](http://www.watterott.com/en/Pin-heatsink-square-ICK-S-10-x-10-x-125)
+* [Suitable Heatsink 10x10](http://www.watterott.com/en/Pin-heatsink-square-ICK-S-10-x-10-x-125)
+* [Suitable Heatsink 10x6](http://www.watterott.com/en/Heatsink-for-DIL-IC-PLCC-und-SMD-10-x-6-mm)
 
 
 ## Features
@@ -46,7 +47,7 @@ Stepper Motor Driver based on a [Trinamic TMC2100](http://www.trinamic.com/produ
 
 * Tests from Yusuke Sasaki: [steahlChop](https://www.youtube.com/watch?v=wrS7l46YJ_E), [spreadCycle](https://www.youtube.com/watch?v=391TY72wzPQ), [stealthChop Delta Printer](https://www.youtube.com/watch?v=iw6MRjzS6V4), [A4988](https://www.youtube.com/watch?v=iw6MRjzS6V4)
 
-* Tests from xenlase: [Ultimaker](https://www.youtube.com/watch?v=0jPbzB7XtWg), [Ultimaker](https://www.youtube.com/watch?v=cfk911ByUWc)
+* Tests from MakerSpatz: [Ultimaker](https://www.youtube.com/watch?v=0jPbzB7XtWg), [Ultimaker](https://www.youtube.com/watch?v=cfk911ByUWc)
 
 * [Test from Aitor Esteve Alvarado (Ninja Prusa i3)](https://www.youtube.com/watch?v=c_TCVirnKJ0)
 
