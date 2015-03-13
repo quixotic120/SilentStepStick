@@ -1,5 +1,5 @@
 # SilentStepStick
-Stepper Motor Driver based on a [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) (StepStick and Pololu A4988 compatible) .
+Stepper Motor Driver Board based on a [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) (StepStick and Pololu A4988 compatible) .
 
 [![SilentStepStick](https://raw.github.com/watterott/SilentStepStick/master/pcb/SilentStepStick_v10.jpg)](http://www.watterott.com/en/SilentStepStick)
 
@@ -52,3 +52,5 @@ Stepper Motor Driver based on a [Trinamic TMC2100](http://www.trinamic.com/produ
 * [Test from Aitor Esteve Alvarado (Ninja Prusa i3)](https://www.youtube.com/watch?v=c_TCVirnKJ0)
 
 * [Test from Artur Wronowski (Delta Printer)](https://www.youtube.com/watch?v=hH2UkAmbfYs)
+
+* [Test from 3D Huynh (Felix 3D)](https://www.youtube.com/watch?v=EglFOpTXPtg)
