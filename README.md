@@ -52,3 +52,5 @@ Stepper Motor Driver Board based on a [Trinamic TMC2100](http://www.trinamic.com
   * Clarence Lee (ATOM Delta Printer): [TMC2100](https://www.youtube.com/watch?v=sBVNqFybUZI), [DRV8825](https://www.youtube.com/watch?v=tNufJnybsxg), [A4982](https://www.youtube.com/watch?v=r1noUt2UoO8)
   * Alex Tien (3DP Delta Printer): [TMC2100](https://www.youtube.com/watch?v=RcqnXXp4tPA), [A4988](https://www.youtube.com/watch?v=F2oB_NOLxHU)
   * swdjojo (Prusa i3): [TMC2100](https://www.youtube.com/watch?v=vBRNifmHaZE), [A4988](https://www.youtube.com/watch?v=TCgErVx93OA)
+  * [Doc. Snuggles](https://www.youtube.com/watch?v=gj6f6HSrHc4)
+  * [Robert Sertic (Ultimaker)](https://www.youtube.com/watch?v=1wQJZb0gzoE)
