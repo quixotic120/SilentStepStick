@@ -16,9 +16,13 @@ Example: A voltage of 1.0V on Vref sets the motor current to 0.71A.
 
 
 ## What to consider when turning the power supply on or off?
-Always insure that the driver board has fixed signals on the control inputs and that the I/O supply voltage ```VIO``` and the motor supply voltage ```VM``` is present.
-If the motor is moving, then it is not allowed to switch off the power supply. Always make sure that the motor stands still on shutting down.
-An emergency stop can be realized, when the ```EN/CFG6``` pin is set to ```VIO```. This will switch off all power drivers and will put the motor into freewheeling.
+**Power on:**
+The motor supply voltage ```VM``` should come up first and then ```VIO```, because the internal logic of the TMC2100 driver is powered from ```VM```.
+Only after ```VIO``` is present and stable, the driver inputs (STEP, DIR, EN) can be driven with a high level.
+
+**Power off:**
+If the motor is running/moving, then it is not allowed to switch off the power supply. Always make sure that the motor stands still on shutting down.
+An **emergency stop** can be realized, when the ```EN/CFG6``` pin is set to ```VIO```. This will switch off all power drivers and will put the motor into freewheeling.
 
 
 ## Where can I find more information on the settings and operation modes?
