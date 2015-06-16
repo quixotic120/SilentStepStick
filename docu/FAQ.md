@@ -28,6 +28,8 @@ An **emergency stop** can be realized, when the ```EN/CFG6``` pin is set to ```V
 ## Where can I find more information on the settings and operation modes?
 More information can be found in the [SilentStepStick schematics](https://github.com/watterott/SilentStepStick/tree/master/pcb) and [TMC2100 datasheet](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100).
 
-Installation guides:
-[Ultimaker UM1](http://umforum.ultimaker.com/index.php?/topic/10571-step-by-step-install-silentstepstick-drivers-on-um1/),
-[RAMPS](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
+**Installation Guides:**
+* [Ultimaker UM1 (English)](http://umforum.ultimaker.com/index.php?/topic/10571-step-by-step-install-silentstepstick-drivers-on-um1/)
+* [Prusa i3 (Danish)](http://qblog.dk/2015/silent-step-sticks-paa-prusa-i3-hephestos/)
+* [RAMPS (English)](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
+* [Motor Current Setting (English)](https://www.youtube.com/watch?v=R5JgRhSSKUM)
