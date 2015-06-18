@@ -37,6 +37,10 @@ Stepper Motor Driver Board based on a [Trinamic TMC2100](http://www.trinamic.com
 
   [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/P3ebhi-vZRY/0.jpg)](https://www.youtube.com/watch?v=P3ebhi-vZRY)
 
+* Review from Georg:
+
+  [<img src="http://blog.georgmill.de/wp-content/uploads/2015/06/steppermotor_intro.jpg" width="400" height="225">](http://blog.georgmill.de/2015/06/18/schrittmotor-test-5-treiber-im-vergleich/)
+
 * Tests:
   * [Watterott](https://www.youtube.com/watch?v=0l-HlntFYOY)
   * [Aleks (RepRap Prusa i3)](https://www.youtube.com/watch?v=33jQ0P7SMJA)
