@@ -1,22 +1,24 @@
 # SilentStepStick
-Stepper Motor Driver Board based on a [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) (StepStick and Pololu A4988 compatible) .
+The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) (StepStick and Pololu A4988 compatible) .
 
 [![SilentStepStick](https://raw.github.com/watterott/SilentStepStick/master/pcb/SilentStepStick_v11.jpg)](http://www.watterott.com/en/SilentStepStick)
 
 
 ## Shop
 * [SilentStepStick Stepper Motor Driver](http://www.watterott.com/en/SilentStepStick)
+* [SilentStepStick Protector](http://www.watterott.com/en/SilentStepStick-Protector)
 * [Suitable Heatsink 10x10](http://www.watterott.com/en/Pin-heatsink-square-ICK-S-10-x-10-x-125)
 * [Suitable Heatsink 10x6](http://www.watterott.com/en/Heatsink-for-DIL-IC-PLCC-und-SMD-10-x-6-mm)
 
 
 ## Features
 * Hardware compatible with [StepStick](http://reprap.org/wiki/StepStick) and [Pololu A4988](https://www.pololu.com/product/1182)
-* [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) with up to 1.2A RMS continuous motor coil current
+* [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100)
 * Step/Dir interface with microstep interpolation (up to 256 microsteps)
-* Motor voltage: 5...46V
-* stealthChop - for quiet operation and smooth motion
-* spreadCycle - highly dynamic motor control chopper
+* Motor current: up to **1.2A RMS** continuously and 2.5A short time peak current per coil
+* Motor voltage: **5...46V**
+* **stealthChop** - for quiet operation and smooth motion
+* **spreadCycle** - highly dynamic motor control chopper
 
 
 ## Hardware
@@ -59,3 +61,4 @@ Stepper Motor Driver Board based on a [Trinamic TMC2100](http://www.trinamic.com
   * [Doc. Snuggles (Stepper Motor)](https://www.youtube.com/watch?v=gj6f6HSrHc4)
   * [Robert Sertic (Ultimaker)](https://www.youtube.com/watch?v=1wQJZb0gzoE)
   * [Emanuel Kant (Ultimaker)](https://www.youtube.com/watch?v=Y7CG43yf9zA)
+  * [ghicione (EggBot)](https://www.youtube.com/watch?v=4FBAAQXnESU)
