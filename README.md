@@ -25,6 +25,7 @@ The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC21
 * [Schematics with Guide](https://github.com/watterott/SilentStepStick/raw/master/pcb/SilentStepStick_v10.pdf)
 * [FAQ (Frequently Asked Questions)](https://github.com/watterott/SilentStepStick/blob/master/docu/FAQ.md)
 * [Schematics + Layout](https://github.com/watterott/SilentStepStick/tree/master/pcb)
+* [Eagle CAD Part](https://github.com/watterott/Eagle-Libs)
 
 
 ## Reviews and Tests
@@ -44,10 +45,10 @@ The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC21
   [<img src="http://blog.georgmill.de/wp-content/uploads/2015/06/steppermotor_intro.jpg" width="400" height="225">](http://blog.georgmill.de/2015/06/18/schrittmotor-test-5-treiber-im-vergleich/)
 
 * Tests:
-  * [Watterott](https://www.youtube.com/watch?v=0l-HlntFYOY)
+  * [Watterott (Stepper Motor)](https://www.youtube.com/watch?v=0l-HlntFYOY)
   * [Aleks (RepRap Prusa i3)](https://www.youtube.com/watch?v=33jQ0P7SMJA)
   * [Anthony (Delta Printer)](https://www.youtube.com/watch?v=CZOV0BdgSiU)
-  * [Mario](https://www.youtube.com/watch?v=mJmg0iRHX8s)
+  * [Mario Lukas](https://www.youtube.com/watch?v=mJmg0iRHX8s)
   * Yusuke Sasaki: [TMC2100 steahlChop](https://www.youtube.com/watch?v=wrS7l46YJ_E), [TMC2100 spreadCycle](https://www.youtube.com/watch?v=391TY72wzPQ), [A4988](https://www.youtube.com/watch?v=iw6MRjzS6V4)
   * [MakerSpatz (Ultimaker)](https://www.youtube.com/watch?v=0jPbzB7XtWg)
   * [Aitor Esteve Alvarado (Ninja Prusa i3)](https://www.youtube.com/watch?v=c_TCVirnKJ0)
@@ -62,3 +63,4 @@ The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC21
   * [Robert Sertic (Ultimaker)](https://www.youtube.com/watch?v=1wQJZb0gzoE)
   * [Emanuel Kant (Ultimaker)](https://www.youtube.com/watch?v=Y7CG43yf9zA)
   * [ghicione (EggBot)](https://www.youtube.com/watch?v=4FBAAQXnESU)
+  * [Edward Kuo (E3D Cyclops Delta Printer)](https://www.youtube.com/watch?v=iEYdrMH69oo)
