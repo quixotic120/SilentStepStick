@@ -1,8 +1,25 @@
 # Frequently Asked Questions
 
 ## Is the SilentStepStick 100% compatible with a StepStick or Pololu A4988?
-The SilentStepStick is hardware/pin compatible with StepStick and Pololu A4988 drivers. However the TMC2100 has different and more settings, which can be set via the CFG/MS pins.
+The SilentStepStick is hardware/pin compatible with StepStick and Pololu A4988 drivers.
+However the TMC2100 has different and more settings, which can be set via the ```CFG/MS``` pins.
 The TMC2100 config pins also know three states: GND, VCC and open.
+
+
+## Where can I find more information on the settings and operation modes?
+More information can be found in the [SilentStepStick schematics](https://github.com/watterott/SilentStepStick/tree/master/pcb) and [TMC2100 datasheet](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100).
+
+**Installation Guides:**
+* [Ultimaker UM1 (English)](http://umforum.ultimaker.com/index.php?/topic/10571-step-by-step-install-silentstepstick-drivers-on-um1/)
+* [Prusa i3 (Danish)](http://qblog.dk/2015/silent-step-sticks-paa-prusa-i3-hephestos/)
+* [RAMPS (English)](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
+* [Motor Current Setting (English)](https://www.youtube.com/watch?v=R5JgRhSSKUM)
+
+
+## How to control the stepper motor driver?
+The SilentStepStick has a normal step+direction interface.
+You set the direction with the ```DIR``` pin and on every pulse on the ```STEP``` pin the motor will move one step.
+Here is an [Arduino example](https://github.com/watterott/SilentStepStick/blob/master/docu/Stepper.ino).
 
 
 ## How to set the stepper motor current?
@@ -23,13 +40,3 @@ Only after ```VIO``` is present and stable, the driver inputs (STEP, DIR, EN) ca
 **Power off:**
 If the motor is running/moving, then it is not allowed to switch off the power supply. Always make sure that the motor stands still on shutting down.
 An **emergency stop** can be realized, when the ```EN/CFG6``` pin is set to ```VIO```. This will switch off all power drivers and will put the motor into freewheeling.
-
-
-## Where can I find more information on the settings and operation modes?
-More information can be found in the [SilentStepStick schematics](https://github.com/watterott/SilentStepStick/tree/master/pcb) and [TMC2100 datasheet](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100).
-
-**Installation Guides:**
-* [Ultimaker UM1 (English)](http://umforum.ultimaker.com/index.php?/topic/10571-step-by-step-install-silentstepstick-drivers-on-um1/)
-* [Prusa i3 (Danish)](http://qblog.dk/2015/silent-step-sticks-paa-prusa-i3-hephestos/)
-* [RAMPS (English)](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
-* [Motor Current Setting (English)](https://www.youtube.com/watch?v=R5JgRhSSKUM)
