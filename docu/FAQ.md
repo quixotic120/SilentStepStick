@@ -40,3 +40,7 @@ Only after ```VIO``` is present and stable, the driver inputs (STEP, DIR, EN) ca
 **Power off:**
 If the motor is running/moving, then it is not allowed to switch off the power supply. Always make sure that the motor stands still on shutting down.
 An **emergency stop** can be realized, when the ```EN/CFG6``` pin is set to ```VIO```. This will switch off all power drivers and will put the motor into freewheeling.
+
+
+## Is it possible to connect the CFG pins from different SilentStepSticks?
+It is possible to connect the ```CFG``` pins from two or more driver boards. However then the pin state can only be GND (low) or VIO (high). The open state is not possible in this configuration.
