@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0635" unitdist="mm" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="11" fill="1" visible="yes" active="yes"/>
@@ -135,6 +135,7 @@
 <text x="8.935" y="4.064" size="1" layer="22" font="vector" ratio="14" rot="MR90">SilentStepStick</text>
 <text x="3.048" y="20.146" size="0.6858" layer="22" font="vector" ratio="10" rot="MR180">www.watterott.com</text>
 <text x="6.5405" y="4.3815" size="1.6764" layer="22" font="vector" ratio="15" rot="MR90">TOP</text>
+<text x="0" y="-5.08" size="1.27" layer="49" font="vector" ratio="10" align="top-left">Silkscreen: 22 bPlace</text>
 </plain>
 <libraries>
 <library name="TMC2100_QFN">

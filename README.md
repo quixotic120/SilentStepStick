@@ -1,7 +1,7 @@
 # SilentStepStick
 The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) (StepStick and Pololu A4988 compatible) .
 
-[![SilentStepStick](https://raw.github.com/watterott/SilentStepStick/master/pcb/SilentStepStick_v11.jpg)](http://www.watterott.com/en/SilentStepStick)
+[![SilentStepStick](https://github.com/watterott/SilentStepStick/raw/master/hardware/SilentStepStick_v11.jpg)](http://www.watterott.com/en/SilentStepStick)
 
 
 ## Shop
@@ -22,9 +22,9 @@ The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC21
 
 
 ## Hardware
-* [Schematics with Guide](https://github.com/watterott/SilentStepStick/raw/master/pcb/SilentStepStick_v10.pdf)
+* [Schematics with Guide](https://github.com/watterott/SilentStepStick/raw/master/hardware/SilentStepStick_v10.pdf)
 * [FAQ (Frequently Asked Questions)](https://github.com/watterott/SilentStepStick/blob/master/docu/FAQ.md)
-* [Schematics + Layout](https://github.com/watterott/SilentStepStick/tree/master/pcb)
+* [Schematics + Layout](https://github.com/watterott/SilentStepStick/tree/master/hardware)
 * [Eagle CAD Part](https://github.com/watterott/Eagle-Libs)
 
 

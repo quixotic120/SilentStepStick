@@ -7,7 +7,7 @@ The TMC2100 config pins also know three states: GND, VCC and open.
 
 
 ## Where can I find more information on the settings and operation modes?
-More information can be found in the [SilentStepStick schematics](https://github.com/watterott/SilentStepStick/tree/master/pcb) and [TMC2100 datasheet](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100).
+More information can be found in the [SilentStepStick schematics](https://github.com/watterott/SilentStepStick/tree/master/hardware) and [TMC2100 datasheet](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100).
 
 **Installation Guides:**
 * [Ultimaker UM1 (English)](http://umforum.ultimaker.com/index.php?/topic/10571-step-by-step-install-silentstepstick-drivers-on-um1/)
