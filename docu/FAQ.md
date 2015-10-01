@@ -16,12 +16,6 @@ More information can be found in the [SilentStepStick schematics](https://github
 * [Motor Current Setting (English)](https://www.youtube.com/watch?v=R5JgRhSSKUM)
 
 
-## How to control the stepper motor driver?
-The SilentStepStick has a normal step+direction interface.
-You set the direction with the ```DIR``` pin and on every pulse on the ```STEP``` pin the motor will move one step.
-Here is an [Arduino example](https://github.com/watterott/SilentStepStick/blob/master/docu/Stepper.ino).
-
-
 ## How to set the stepper motor current?
 The best way to set the motor current is by measuring the voltage on the ```Vref``` pin (0...2.5V) and
 adjusting the voltage with the potentiometer.
@@ -42,5 +36,16 @@ If the motor is running/moving, then it is not allowed to switch off the power s
 An **emergency stop** can be realized, when the ```EN/CFG6``` pin is set to ```VIO```. This will switch off all power drivers and will put the motor into freewheeling.
 
 
+## The motor makes noise in spreadCycle mode when not it is not in motion?
+A motor supply voltage of 12V is in most cases to low and in general the sound gets quieter if the motor supply voltage is above 18V.
+
+
+## How to control the stepper motor driver?
+The SilentStepStick has a normal step+direction interface.
+You set the direction with the ```DIR``` pin and on every pulse on the ```STEP``` pin the motor will move one step.
+Here is an [Arduino example](https://github.com/watterott/SilentStepStick/blob/master/docu/Stepper.ino).
+
+
 ## Is it possible to connect the CFG pins from different SilentStepSticks?
-It is possible to connect the ```CFG``` pins from two or more driver boards. However then the pin state can only be GND (low) or VIO (high). The open state is not possible in this configuration.
+It is possible to connect the ```CFG``` pins from two or more driver boards.
+However then the pin state can only be GND (low) or VIO (high). The open state is not possible in this configuration.

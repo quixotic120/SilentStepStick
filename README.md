@@ -16,7 +16,7 @@ The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC21
 * [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100)
 * Step/Dir interface with microstep interpolation (up to 256 microsteps)
 * Motor current: up to **1.2A RMS** continuously and 2.5A short time peak current per coil
-* Motor voltage: **5...46V**
+* Motor voltage: **5...45V**
 * **stealthChop** - for quiet operation and smooth motion
 * **spreadCycle** - highly dynamic motor control chopper
 
