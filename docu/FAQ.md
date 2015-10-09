@@ -21,9 +21,11 @@ The best way to set the motor current is by measuring the voltage on the ```Vref
 adjusting the voltage with the potentiometer.
 The maximum motor current is 1.77A and is set via the 0.11Ohm sense resistors.
 
-Example: A voltage of 1.0V on Vref sets the motor current to 0.71A.
-
 ```Irms = (Vref * 1.77A) / 2.5V```
+
+```Vref = (Irms * 2.5V) / 1.77A```
+
+Example: A voltage of 1.0V on Vref sets the motor current to 0.71A.
 
 
 ## What to consider when turning the power supply on or off?
@@ -36,7 +38,7 @@ If the motor is running/moving, then it is not allowed to switch off the power s
 An **emergency stop** can be realized, when the ```EN/CFG6``` pin is set to ```VIO```. This will switch off all power drivers and will put the motor into freewheeling.
 
 
-## The motor makes noise in spreadCycle mode when not it is not in motion?
+## The motor makes noise in spreadCycle mode when it is not moving?
 A motor supply voltage of 12V is in most cases to low and in general the sound gets quieter if the motor supply voltage is above 18V.
 
 
