@@ -19,13 +19,16 @@ More information can be found in the [SilentStepStick schematics](https://github
 ## How to set the stepper motor current?
 The best way to set the motor current is by measuring the voltage on the ```Vref``` pin (0...2.5V) and
 adjusting the voltage with the potentiometer.
-The maximum motor current is 1.77A and is set via the 0.11Ohm sense resistors.
+The maximum motor current is 1.77A RMS and is set via the 0.11Ohm sense resistors.
 
 ```Irms = (Vref * 1.77A) / 2.5V```
 
 ```Vref = (Irms * 2.5V) / 1.77A```
 
-Example: A voltage of 1.0V on Vref sets the motor current to 0.71A.
+**Example:** A voltage of 1.0V on Vref sets the motor current to 0.71A RMS.
+
+**Note:** On some stepper motor drivers the maximum current (e.g. A4988) is set via Vref and on others the RMS current (e.g. TMC2100).
+          ```Imax = 1.41 * Irms```
 
 
 ## What to consider when turning the power supply on or off?

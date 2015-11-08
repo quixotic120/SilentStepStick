@@ -1,5 +1,5 @@
 # SilentStepStick
-The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) (StepStick and Pololu A4988 compatible) .
+The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC 2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) (StepStick and Pololu A4988 compatible) .
 
 [![SilentStepStick](https://github.com/watterott/SilentStepStick/raw/master/hardware/SilentStepStick_v11.jpg)](http://www.watterott.com/en/SilentStepStick)
 
