@@ -15,6 +15,10 @@ More information can be found in the [SilentStepStick schematics](https://github
 * [RAMPS (English)](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
 * [Motor Current Setting (English)](https://www.youtube.com/watch?v=R5JgRhSSKUM)
 
+**RAMPS 1.4 Notes:**
+If you remove all jumpers for MS1+MS2+MS3, then the SilentStepStick driver will be in 1/16 spreadCycle mode (CFG1=GND, CFG2=open, CFG3=open), because there is a pull-down resistor on MS1 on the RAMPS.
+But if you have not an original [RAMPS 1.4](http://reprap.org/wiki/RAMPS_1.4), then your schematics can be different and you have to check the MS-Pin configurations on you board.
+
 
 ## How to set the stepper motor current?
 The best way to set the motor current is by measuring the voltage on the ```Vref``` pin (0...2.5V) and
