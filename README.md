@@ -6,6 +6,7 @@ The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC 2
 
 ## Shop
 * [SilentStepStick Stepper Motor Driver](http://www.watterott.com/en/SilentStepStick)
+* [SilentStepStick Stepper Motor Driver with soldered Pin Headers](http://www.watterott.com/en/SilentStepStick-with-Pins)
 * [SilentStepStick Protector](http://www.watterott.com/en/SilentStepStick-Protector)
 * [Suitable Heatsink 10x10](http://www.watterott.com/en/Pin-heatsink-square-ICK-S-10-x-10-x-125)
 * [Suitable Heatsink 10x6](http://www.watterott.com/en/Heatsink-for-DIL-IC-PLCC-und-SMD-10-x-6-mm)
@@ -65,3 +66,4 @@ The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC 2
   * [ghicione (EggBot)](https://www.youtube.com/watch?v=4FBAAQXnESU)
   * [Edward Kuo (E3D Cyclops Delta Printer)](https://www.youtube.com/watch?v=iEYdrMH69oo)
   * [Noah Ahmad Connor (Prusa i3)](https://www.youtube.com/watch?v=mNdl3s8TYmY)
+  * [Sterillium (XYZ DaVinci)](https://www.youtube.com/watch?v=k-szP5wuplM)
