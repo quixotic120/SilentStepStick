@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15348,8 +15348,6 @@ stealthChop</text>
 <wire x1="168.91" y1="154.94" x2="168.91" y2="149.86" width="0.1524" layer="91"/>
 <junction x="168.91" y="149.86"/>
 <pinref part="C7" gate="C" pin="1"/>
-<junction x="151.13" y="157.48"/>
-<wire x1="151.13" y1="157.48" x2="151.13" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="168.91" y1="142.24" x2="181.61" y2="142.24" width="0.1524" layer="91"/>

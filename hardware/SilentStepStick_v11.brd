@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.00625" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Ground" color="11" fill="1" visible="yes" active="yes"/>
@@ -1778,9 +1778,9 @@ a wide range of applications. Your particular design
 may have different requirements, so please make the
 necessary adjustments and save your customized
 design rules under a new name.</description>
-<param name="layerSetup" value="(1*2*15*16)"/>
+<param name="layerSetup" value="(1+2*15+16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="0.36mm 0.71mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.36mm 0.2mm"/>
+<param name="mtIsolate" value="0.35mm 0.76mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.36mm 0.35mm"/>
 <param name="mdWireWire" value="0.15mm"/>
 <param name="mdWirePad" value="0.15mm"/>
 <param name="mdWireVia" value="0.15mm"/>
@@ -2631,7 +2631,8 @@ design rules under a new name.</description>
 <wire x1="1.3335" y1="1.3335" x2="1.3335" y2="1.651" width="0.2" layer="1"/>
 <wire x1="1.3335" y1="1.651" x2="2.667" y2="2.9845" width="0.2" layer="1"/>
 <wire x1="2.667" y1="2.9845" x2="2.92" y2="2.9845" width="0.2" layer="1"/>
-<wire x1="1.3335" y1="1.3335" x2="1.27" y2="1.27" width="0" layer="19" extent="1-1"/>
+<wire x1="1.3335" y1="1.3335" x2="1.27" y2="1.3335" width="0.2" layer="1"/>
+<wire x1="1.27" y1="1.3335" x2="1.27" y2="1.27" width="0.2" layer="1"/>
 </signal>
 <signal name="VREF1">
 <contactref element="R6" pad="1"/>
