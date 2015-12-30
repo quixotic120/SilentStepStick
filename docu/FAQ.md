@@ -2,17 +2,20 @@
 
 ## Is the SilentStepStick 100% compatible with a StepStick or Pololu A4988?
 The SilentStepStick is hardware/pin compatible with StepStick and Pololu A4988 drivers.
-However the TMC2100 has different and more settings, which can be set via the ```CFG/MS``` pins.
-The TMC2100 config pins also know three states: GND, VCC and open.
+However the TMC2100 has different and more settings, which can be set via the CFG/MS pins.
+The TMC2100 config pins also know three states: low (GND), high (VIO) and open (unconnected).
 
 
 ## Where can I find more information on the settings and operation modes?
 More information can be found in the [SilentStepStick schematics](https://github.com/watterott/SilentStepStick/tree/master/hardware) and [TMC2100 datasheet](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100).
+For most cases the **1/16 stealthChop** mode (CFG1=open, CFG2=open, CFG3=open) is suitable.
+If you have problems like step losses then use the more powerful **1/16 spreadCycle** mode (CFG1=GND, CFG2=open, CFG3=open).
 
-**Installation Guides:**
+**Installation Guides for 3D Printers:**
 * [Ultimaker UM1 (English)](http://umforum.ultimaker.com/index.php?/topic/10571-step-by-step-install-silentstepstick-drivers-on-um1/)
-* [Prusa i3 (Danish)](http://qblog.dk/2015/silent-step-sticks-paa-prusa-i3-hephestos/)
 * [RAMPS (English)](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
+* [Prusa i3 (Danish)](http://qblog.dk/2015/silent-step-sticks-paa-prusa-i3-hephestos/)
+* [General (Russian)](http://3deshnik.ru/blogs/akdzg/chto-zhe-delat-belami-tmc2100)
 * [Motor Current Setting (English)](https://www.youtube.com/watch?v=R5JgRhSSKUM)
 
 **RAMPS 1.4 Notes:**
@@ -57,4 +60,4 @@ Here is an [Arduino example](https://github.com/watterott/SilentStepStick/blob/m
 
 ## Is it possible to connect the CFG pins from different SilentStepSticks?
 It is possible to connect the ```CFG``` pins from two or more driver boards.
-However then the pin state can only be GND (low) or VIO (high). The open state is not possible in this configuration.
+However then the pin state can only be ```GND``` (low) or ```VIO``` (high). The open state (unconnected) is not possible in this configuration.
