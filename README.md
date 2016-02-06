@@ -31,17 +31,17 @@ The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC 2
 
 ## Reviews and Tests
 
-* Review from Thomas:
+* Review from Thomas Sanladerer:
 
   [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/g6Bxoqr8QlY/0.jpg)](https://www.youtube.com/watch?v=g6Bxoqr8QlY)
 
-  [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/mYuZqx8xwTg/0.jpg)](https://www.youtube.com/watch?v=mYuZqx8xwTg)
+  [![SilentStepStick/TMC2100 Review Update](http://img.youtube.com/vi/mYuZqx8xwTg/0.jpg)](https://www.youtube.com/watch?v=mYuZqx8xwTg)
 
-* Review from Peter:
+* Review from Peter Recktenwald:
 
   [![SilentStepStick/TMC2100 Review](http://img.youtube.com/vi/P3ebhi-vZRY/0.jpg)](https://www.youtube.com/watch?v=P3ebhi-vZRY)
 
-* Review from Georg:
+* Review from Georg Mill:
 
   [<img src="http://blog.georgmill.de/wp-content/uploads/2015/06/steppermotor_intro.jpg" width="400" height="225">](http://blog.georgmill.de/2015/06/18/schrittmotor-test-5-treiber-im-vergleich/)
 

@@ -44,8 +44,9 @@ The motor supply voltage ```VM``` should come up first and then ```VIO```, becau
 Only after ```VIO``` is present and stable, the driver inputs (STEP, DIR, EN) can be driven with a high level.
 
 **Power off:**
-If the motor is running/moving, then it is not allowed to switch off the power supply. Always make sure that the motor stands still on shutting down.
+If the motor is running/moving, then it is not allowed to switch off the power supply. Always make sure that the motor stands still on shutting down otherwise the TMC2100 driver can get damaged.
 An **emergency stop** can be realized, when the ```EN/CFG6``` pin is set to ```VIO```. This will switch off all power drivers and will put the motor into freewheeling.
+See also: [SilentStepStick Protector with flyback diodes](https://github.com/watterott/SilentStepStick#shop)
 
 
 ## The motor makes noise in spreadCycle mode when it is not moving?
