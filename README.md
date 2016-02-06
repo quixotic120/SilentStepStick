@@ -7,14 +7,14 @@ The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC 2
 ## Shop
 * [SilentStepStick Stepper Motor Driver](http://www.watterott.com/en/SilentStepStick)
 * [SilentStepStick Stepper Motor Driver with soldered Pin Headers](http://www.watterott.com/en/SilentStepStick-with-Pins)
-* [SilentStepStick Protector](http://www.watterott.com/en/SilentStepStick-Protector)
+* [SilentStepStick Protector (with flyback diodes)](http://www.watterott.com/en/SilentStepStick-Protector)
 * [Suitable Heatsink 10x10](http://www.watterott.com/en/Pin-heatsink-square-ICK-S-10-x-10-x-125)
 * [Suitable Heatsink 10x6](http://www.watterott.com/en/Heatsink-for-DIL-IC-PLCC-und-SMD-10-x-6-mm)
 
 
 ## Features
 * Hardware compatible with [StepStick](http://reprap.org/wiki/StepStick) and [Pololu A4988](https://www.pololu.com/product/1182)
-* [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100)
+* [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) stepper motor driver
 * Step/Dir interface with microstep interpolation (up to 256 microsteps)
 * Motor current: up to **1.2A RMS** continuously and 2.5A short time peak current per coil
 * Motor voltage: **5...45V**

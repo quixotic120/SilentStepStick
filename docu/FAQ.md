@@ -28,9 +28,9 @@ The best way to set the motor current is by measuring the voltage on the ```Vref
 adjusting the voltage with the potentiometer.
 The maximum motor current is 1.77A RMS and is set via the 0.11Ohm sense resistors.
 
-```Irms = (Vref * 1.77A) / 2.5V```
+```Irms = (Vref * 1.77A) / 2.5V = Vref * 0.71```
 
-```Vref = (Irms * 2.5V) / 1.77A```
+```Vref = (Irms * 2.5V) / 1.77A = Irms * 1.41```
 
 **Example:** A voltage of 1.0V on Vref sets the motor current to 0.71A RMS.
 
@@ -55,7 +55,7 @@ A motor supply voltage of 12V is in most cases to low and in general the sound g
 ## How to control the stepper motor driver?
 The SilentStepStick has a normal step+direction interface.
 You set the direction with the ```DIR``` pin and on every pulse on the ```STEP``` pin the motor will move one step.
-Here is an [Arduino example](https://github.com/watterott/SilentStepStick/blob/master/docu/Stepper.ino).
+Here is an [Arduino example](https://github.com/watterott/SilentStepStick/blob/master/docu/Stepper.ino) and [Arduino Library](http://www.airspayce.com/mikem/arduino/AccelStepper/) (interface=DRIVER).
 
 
 ## Is it possible to connect the CFG pins from different SilentStepSticks?
