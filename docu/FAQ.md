@@ -62,3 +62,9 @@ Here is an [Arduino example](https://github.com/watterott/SilentStepStick/blob/m
 ## Is it possible to connect the CFG pins from different SilentStepSticks?
 It is possible to connect the ```CFG``` pins from two or more driver boards.
 However then the pin state can only be ```GND``` (low) or ```VIO``` (high). The open state (unconnected) is not possible in this configuration.
+
+
+## Why is the TMC2100 chip on the bottom PCB side?
+The TMC2100 chip has a thermal pad on the bottom which is soldered to the PCB. So the thermal resistance via the chip bottom is better than the top.
+That is why the chip is on the bottom PCB side. A heat sink can be placed directly on the PCB.
+Further infos [here](https://www.youtube.com/watch?time_continue=145&v=mYuZqx8xwTg).
