@@ -64,6 +64,7 @@ The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC 2
   * [Robert Sertic (Ultimaker)](https://www.youtube.com/watch?v=1wQJZb0gzoE)
   * [Emanuel Kant (Ultimaker)](https://www.youtube.com/watch?v=Y7CG43yf9zA)
   * [ghicione (EggBot)](https://www.youtube.com/watch?v=4FBAAQXnESU)
-  * [Edward Kuo (E3D Cyclops Delta Printer)](https://www.youtube.com/watch?v=iEYdrMH69oo)
+  * Edward Kuo: [E3D Cyclops Delta Printer](https://www.youtube.com/watch?v=iEYdrMH69oo), [TMC2100 water cooled](https://www.youtube.com/watch?v=vjNM9R0NZG0)
   * [Noah Ahmad Connor (Prusa i3)](https://www.youtube.com/watch?v=mNdl3s8TYmY)
   * [Sterillium (XYZ DaVinci)](https://www.youtube.com/watch?v=k-szP5wuplM)
+  * [markg21405 (Delta Printer)](https://www.youtube.com/watch?v=tytL3KeIlLw)

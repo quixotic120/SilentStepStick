@@ -12,10 +12,11 @@ For most cases the **1/16 stealthChop** mode (CFG1=open, CFG2=open, CFG3=open) i
 If you have problems like step losses then use the more powerful **1/16 spreadCycle** mode (CFG1=GND, CFG2=open, CFG3=open).
 
 **Installation Guides for 3D Printers:**
-* [Ultimaker UM1 (English)](http://umforum.ultimaker.com/index.php?/topic/10571-step-by-step-install-silentstepstick-drivers-on-um1/)
-* [RAMPS (English)](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
-* [Prusa i3 (Danish)](http://qblog.dk/2015/silent-step-sticks-paa-prusa-i3-hephestos/)
+* [General (German)](http://reprap.org/wiki/TMC2100/de)
 * [General (Russian)](http://3deshnik.ru/blogs/akdzg/chto-zhe-delat-belami-tmc2100)
+* [RAMPS (English)](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
+* [Ultimaker UM1 (English)](http://umforum.ultimaker.com/index.php?/topic/10571-step-by-step-install-silentstepstick-drivers-on-um1/)
+* [Prusa i3 (Danish)](http://qblog.dk/2015/silent-step-sticks-paa-prusa-i3-hephestos/)
 * [Motor Current Setting (English)](https://www.youtube.com/watch?v=R5JgRhSSKUM)
 
 **RAMPS 1.4 Notes:**
