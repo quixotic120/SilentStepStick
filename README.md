@@ -1,29 +1,41 @@
 # SilentStepStick
-The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC 2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) (StepStick and Pololu A4988 compatible) .
+The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC 2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) or [Trinamic TMC 2130](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2130).
+The driver boards are hardware compatible with [StepStick](http://reprap.org/wiki/StepStick) and [Pololu A4988](https://www.pololu.com/product/1182).
 
 [![SilentStepStick](https://github.com/watterott/SilentStepStick/raw/master/hardware/SilentStepStick_v12.jpg)](http://www.watterott.com/en/SilentStepStick)
 
 
 ## Shop
-* [SilentStepStick Stepper Motor Driver](http://www.watterott.com/en/SilentStepStick)
-* [SilentStepStick Stepper Motor Driver with soldered Pin Headers](http://www.watterott.com/en/SilentStepStick-with-Pins)
-* [SilentStepStick Protector (with flyback diodes)](http://www.watterott.com/en/SilentStepStick-Protector)
-* [Suitable Heatsink 10x10](http://www.watterott.com/en/Pin-heatsink-square-ICK-S-10-x-10-x-125)
-* [Suitable Heatsink 10x6](http://www.watterott.com/en/Heatsink-for-DIL-IC-PLCC-und-SMD-10-x-6-mm)
+* Trinamic **TMC2100** based drivers (CFG pins for configuration)
+  * [TMC2100 SilentStepStick](http://www.watterott.com/en/SilentStepStick)
+  * [TMC2100 SilentStepStick with soldered Pin Headers](http://www.watterott.com/en/SilentStepStick-with-Pins)
+* Trinamic **TMC2130** based drivers (SPI for configuration)
+  * [TMC2130 SilentStepStick](http://www.watterott.com/en/SilentStepStick-TMC2130)
+  * [TMC2130 SilentStepStick with soldered Pin Headers](http://www.watterott.com/en/SilentStepStick-TMC2130-with-Pins)
+* Accessories
+  * [SilentStepStick Protector (with flyback diodes)](http://www.watterott.com/en/SilentStepStick-Protector)
+  * [Suitable Heatsink 10x10mm](http://www.watterott.com/en/Pin-heatsink-square-ICK-S-10-x-10-x-125)
+  * [Suitable Heatsink 10x6mm](http://www.watterott.com/en/Heatsink-for-DIL-IC-PLCC-und-SMD-10-x-6-mm)
 
 
 ## Features
 * Hardware compatible with [StepStick](http://reprap.org/wiki/StepStick) and [Pololu A4988](https://www.pololu.com/product/1182)
-* [Trinamic TMC2100](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) stepper motor driver
-* Step/Dir interface with microstep interpolation (up to 256 microsteps)
+* Trinamic TMC21x0 stepper motor driver
+* Step/Dir interface with up to 16 microsteps and 256 microsteps interpolation
 * Motor current: up to **1.2A RMS** continuously and 2.5A short time peak current per coil
 * Motor voltage: **5...45V**
+* **microPlyer** - microstep interpolator for increased smoothness of microstepping
 * **stealthChop** - for quiet operation and smooth motion
 * **spreadCycle** - highly dynamic motor control chopper
+* Extra features of **TMC2130**:
+  * SPI configuration interface (up to 4MHz)
+  * up to 256 native microsteps (without interpolation)
+  * **coolStep** - current control for energy savings
+  * **stallGuard** - sensorless motor load detection
+  * **dcStep** - load dependent speed control
 
 
 ## Hardware
-* [Schematics with Guide](https://github.com/watterott/SilentStepStick/raw/master/hardware/SilentStepStick_v10.pdf)
 * [FAQ (Frequently Asked Questions)](https://github.com/watterott/SilentStepStick/blob/master/docu/FAQ.md)
 * [Schematics + Layout](https://github.com/watterott/SilentStepStick/tree/master/hardware)
 * [Eagle CAD Part](https://github.com/watterott/Eagle-Libs)

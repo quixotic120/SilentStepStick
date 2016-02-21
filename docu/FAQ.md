@@ -4,10 +4,11 @@
 The SilentStepStick is hardware/pin compatible with StepStick and Pololu A4988 drivers.
 However the TMC2100 has different and more settings, which can be set via the CFG/MS pins.
 The TMC2100 config pins also know three states: low (GND), high (VIO) and open (unconnected).
+On the TMC2130 SPI is used for the configuration and so the controller board must have SPI on the CFG pins.
 
 
 ## Where can I find more information on the settings and operation modes?
-More information can be found in the [SilentStepStick schematics](https://github.com/watterott/SilentStepStick/tree/master/hardware) and [TMC2100 datasheet](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100).
+More information can be found in the [SilentStepStick schematics](https://github.com/watterott/SilentStepStick/tree/master/hardware) and [TMC2100 datasheet](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2100) / [TMC2130 datasheet](http://www.trinamic.com/products/integrated-circuits/stepper-power-driver/tmc2130).
 For most cases the **1/16 stealthChop** mode (CFG1=open, CFG2=open, CFG3=open) is suitable.
 If you have problems like step losses then use the more powerful **1/16 spreadCycle** mode (CFG1=GND, CFG2=open, CFG3=open).
 
@@ -66,6 +67,8 @@ However then the pin state can only be ```GND``` (low) or ```VIO``` (high). The 
 
 
 ## Why is the TMC2100 chip on the bottom PCB side?
-The TMC2100 chip has a thermal pad on the bottom which is soldered to the PCB. So the thermal resistance via the chip bottom is better than the top.
-That is why the chip is on the bottom PCB side. A heat sink can be placed directly on the PCB.
+The TMC2100/TMC2130 chip has a thermal pad on the bottom which is soldered to the PCB.
+So the thermal resistance via the chip bottom is better than via the top.
+That is why the chip is on the bottom PCB side.
+A heat sink can be placed directly on the PCB.
 Further infos [here](https://www.youtube.com/watch?time_continue=145&v=mYuZqx8xwTg).
