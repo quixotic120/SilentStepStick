@@ -57,6 +57,10 @@ The driver boards are hardware compatible with [StepStick](http://reprap.org/wik
 
   [<img src="http://blog.georgmill.de/wp-content/uploads/2015/06/steppermotor_intro.jpg" width="400" height="225">](http://blog.georgmill.de/2015/06/18/schrittmotor-test-5-treiber-im-vergleich/)
 
+* What is Trinamic stallGuard2 and coolStep:
+
+  [![Trinamic stallGuard2 and coolStep](http://img.youtube.com/vi/Prw7wNa20Gk/0.jpg)](https://www.youtube.com/watch?v=Prw7wNa20Gk)
+
 * Tests:
   * [Watterott (Stepper Motor)](https://www.youtube.com/watch?v=0l-HlntFYOY)
   * [Aleks (RepRap Prusa i3)](https://www.youtube.com/watch?v=33jQ0P7SMJA)
