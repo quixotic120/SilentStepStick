@@ -43,6 +43,7 @@ The maximum motor current is 1.77A RMS and is set via the 0.11Ohm sense resistor
 ## What to consider when turning the power supply on or off?
 **Power on:**
 The motor supply voltage ```VM``` should come up first and then ```VIO```, because the internal logic of the TMC2100 driver is powered from ```VM```.
+If you cannot ensure that ```VM``` is present before or at the same time as ```VIO``` then add a resistor with about 200 Ohm in series with ```VIO``` to protect the internal logic.
 Only after ```VIO``` is present and stable, the driver inputs (STEP, DIR, EN) can be driven with a high level.
 
 **Power off:**
