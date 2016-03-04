@@ -36,8 +36,8 @@ The driver boards are hardware compatible with [StepStick](http://reprap.org/wik
 
 
 ## Hardware
+* [Schematics/Layout + Guide](https://github.com/watterott/SilentStepStick/tree/master/hardware)
 * [FAQ (Frequently Asked Questions)](https://github.com/watterott/SilentStepStick/blob/master/docu/FAQ.md)
-* [Schematics + Layout](https://github.com/watterott/SilentStepStick/tree/master/hardware)
 * [Eagle CAD Part](https://github.com/watterott/Eagle-Libs)
 
 
