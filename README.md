@@ -84,3 +84,4 @@ The driver boards are hardware compatible with [StepStick](http://reprap.org/wik
   * [Noah Ahmad Connor (Prusa i3)](https://www.youtube.com/watch?v=mNdl3s8TYmY)
   * [Sterillium (XYZ DaVinci)](https://www.youtube.com/watch?v=k-szP5wuplM)
   * [markg21405 (Delta Printer)](https://www.youtube.com/watch?v=tytL3KeIlLw)
+  * [JJiG (MakerFarm Pegasus)](https://www.youtube.com/watch?v=9Rny6n1MCfI)
