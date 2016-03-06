@@ -60,10 +60,10 @@ See also: [SilentStepStick Protector with flyback diodes](https://github.com/wat
 A motor supply voltage of 12V is in most cases to low and in general the sound gets quieter if the motor supply voltage is above 18V.
 
 
-## How to control the stepper motor driver?
+## How to control the TMC21x0 stepper motor driver?
 The SilentStepStick has a normal step+direction interface.
 You set the direction with the ```DIR``` pin and on every pulse on the ```STEP``` pin the motor will move one step.
-Here is an [Arduino example](https://github.com/watterott/SilentStepStick/blob/master/docu/Stepper.ino) and [Arduino Library](http://www.airspayce.com/mikem/arduino/AccelStepper/) (interface=DRIVER).
+Here you can find an [Arduino example](https://github.com/watterott/SilentStepStick/tree/master/software) and [Arduino library](http://www.airspayce.com/mikem/arduino/AccelStepper/) (interface=DRIVER).
 
 
 ## Is it possible to connect the CFG pins from different SilentStepSticks?
