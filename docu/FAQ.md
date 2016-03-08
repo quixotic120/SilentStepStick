@@ -17,12 +17,11 @@ If you have problems like step losses then use the more powerful **1/16 spreadCy
           As safety workaround you can disconnect the 5V signal in the USB cable, so that the board cannot be powered over USB.
 
 ### Installation Guides for 3D Printers
+* [General (English)](http://reprap.org/wiki/TMC2100)
 * [General (German)](http://reprap.org/wiki/TMC2100/de)
 * [General (Russian)](http://3deshnik.ru/blogs/akdzg/chto-zhe-delat-belami-tmc2100)
 * [RAMPS (English)](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
 * [Ultimaker UM1 (English)](http://umforum.ultimaker.com/index.php?/topic/10571-step-by-step-install-silentstepstick-drivers-on-um1/)
-* [Prusa i3 (Danish)](http://qblog.dk/2015/silent-step-sticks-paa-prusa-i3-hephestos/)
-* [Motor Current Setting (English)](https://www.youtube.com/watch?v=R5JgRhSSKUM)
 
 ### RAMPS 1.4 Notes
 If you remove all jumpers for MS1+MS2+MS3, then the SilentStepStick TMC2100 driver will be in 1/16 spreadCycle mode (CFG1=GND, CFG2=open, CFG3=open), because there is a pull-down resistor on MS1 on the RAMPS.
