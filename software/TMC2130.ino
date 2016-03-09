@@ -1,22 +1,22 @@
 /*
-  TMC2130 Example
+  Trinamic TMC2130 Example
 */
 
 #include "SPI.h"
 
-// Note: You also have to connect also GND, 5V and VM.
+// Note: You also have to connect GND, 5V and VM.
 //       A connection diagram can be found in the schematics.
-#define EN_PIN   7
-#define DIR_PIN  8
-#define STEP_PIN 9
+#define EN_PIN    7 //enable (CFG6)
+#define DIR_PIN   8 //direction
+#define STEP_PIN  9 //step
 
-#define CS_PIN   10
-#define MOSI_PIN 11
-#define MISO_PIN 12
-#define SCK_PIN  13
+#define CS_PIN   10 //chip select
+#define MOSI_PIN 11 //SDI (Master-Out-Slave-In)
+#define MISO_PIN 12 //SDO (Master-In-Slave-Out)
+#define SCK_PIN  13 //clock
 
 //TMC2130 registers
-#define WRITE          0x80 // write flag
+#define WRITE          0x80 //write flag
 #define REG_GCONF      0x00
 #define REG_GSTAT      0x01
 #define REG_IHOLD_IRUN 0x10
@@ -68,9 +68,9 @@ void setup()
 {
   //set pins
   pinMode(EN_PIN, OUTPUT);
-  digitalWrite(EN_PIN, HIGH);
+  digitalWrite(EN_PIN, HIGH); //deactivate driver (LOW active)
   pinMode(DIR_PIN, OUTPUT);
-  digitalWrite(DIR_PIN, LOW);
+  digitalWrite(DIR_PIN, LOW); //LOW or HIGH
   pinMode(STEP_PIN, OUTPUT);
   digitalWrite(STEP_PIN, LOW);
 

@@ -1,12 +1,12 @@
 /*
-  TMC2100 Example
+  Trinamic TMC2100 Example
 */
 
-// Note: You also have to connect also GND, 5V and VM.
+// Note: You also have to connect GND, 5V and VM.
 //       A connection diagram can be found in the schematics.
-#define EN_PIN   7
-#define DIR_PIN  8
-#define STEP_PIN 9
+#define EN_PIN    7 //enable (CFG6)
+#define DIR_PIN   8 //direction
+#define STEP_PIN  9 //step
 
 void setup()
 {
