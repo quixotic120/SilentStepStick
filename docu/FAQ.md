@@ -47,7 +47,7 @@ The maximum motor current is 1.77A RMS and is set via the 0.11Ohm sense resistor
 **Power on:**
 The motor supply voltage ```VM``` should come up first and then ```VIO```, because the internal logic of the TMC21x0 driver is powered from ```VM```.
 If you cannot ensure that ```VM``` is present before or at the same time as ```VIO``` then add a resistor with about 100-200 Ohm in series with ```VIO``` to protect the internal logic.
-Only after ```VIO``` is present and stable, the driver inputs (STEP, DIR, EN) can be driven with a high level.
+Only after ```VIO``` is present and stable, the driver inputs (STEP, DIR, EN, CFG1...) can be driven with a high level.
 
 **Power off:**
 If the motor is running/moving, then it is not allowed to switch off the power supply. Always make sure that the motor stands still on shutting down otherwise the TMC21x0 driver can get damaged.
