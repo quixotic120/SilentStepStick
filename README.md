@@ -7,11 +7,11 @@ The driver boards are hardware compatible with [StepStick](http://reprap.org/wik
 
 ## Shop
 * Trinamic **TMC2100** based drivers (CFG pins for configuration)
-  * [TMC2100 SilentStepStick](http://www.watterott.com/en/SilentStepStick)
-  * [TMC2100 SilentStepStick with soldered Pin Headers](http://www.watterott.com/en/SilentStepStick-with-Pins)
+  * [TMC2100 SilentStepStick (3.3-5V)](http://www.watterott.com/en/SilentStepStick)
+  * [TMC2100 SilentStepStick (3.3-5V) with soldered Pin Headers](http://www.watterott.com/en/SilentStepStick-with-Pins)
 * Trinamic **TMC2130** based drivers (SPI for configuration)
-  * [TMC2130 SilentStepStick](http://www.watterott.com/en/SilentStepStick-TMC2130)
-  * [TMC2130 SilentStepStick with soldered Pin Headers](http://www.watterott.com/en/SilentStepStick-TMC2130-with-Pins)
+  * [TMC2130 SilentStepStick (3.3-5V)](http://www.watterott.com/en/SilentStepStick-TMC2130)
+  * [TMC2130 SilentStepStick (3.3-5V) with soldered Pin Headers](http://www.watterott.com/en/SilentStepStick-TMC2130-with-Pins)
 * Accessories
   * [SilentStepStick Protector (with flyback diodes)](http://www.watterott.com/en/SilentStepStick-Protector)
   * [Suitable Heatsink 10x10mm](http://www.watterott.com/en/Pin-heatsink-square-ICK-S-10-x-10-x-125)
@@ -23,7 +23,7 @@ The driver boards are hardware compatible with [StepStick](http://reprap.org/wik
 * Trinamic TMC21x0 stepper motor driver
 * Step/Dir interface with up to 16 microsteps and 256 microsteps interpolation
 * Motor current: up to **1.2A RMS** continuously and 2.5A short time peak current per coil
-* Motor voltage: **5...45V**
+* Motor voltage: **5.5...45V**
 * **microPlyer** - microstep interpolator for increased smoothness of microstepping
 * **stealthChop** - for quiet operation and smooth motion
 * **spreadCycle** - highly dynamic motor control chopper
@@ -85,3 +85,4 @@ The driver boards are hardware compatible with [StepStick](http://reprap.org/wik
   * [Sterillium (XYZ DaVinci)](https://www.youtube.com/watch?v=k-szP5wuplM)
   * [markg21405 (Delta Printer)](https://www.youtube.com/watch?v=tytL3KeIlLw)
   * [JJiG (MakerFarm Pegasus)](https://www.youtube.com/watch?v=9Rny6n1MCfI)
+  * [René Jurack (Skimmy v3)](https://www.youtube.com/watch?v=qpl8v0k1_34)

@@ -12,18 +12,19 @@ More information can be found in the [SilentStepStick schematics](https://github
 For most cases the **1/16 stealthChop** mode (CFG1=open, CFG2=open, CFG3=open) is suitable.
 If you have problems like step losses then use the more powerful **1/16 spreadCycle** mode (CFG1=GND, CFG2=open, CFG3=open).
 
-**Note:** If you use a control board with USB power supply (like Arduino + RAMPS) then always ensure that ```VM``` is present, when you connect the board via USB.
-          Otherwise the TMC21x0 is not powered via the internal voltage regulator and a high current can flow into ```VIO``` and this can damage the internal logic.
-          As safety workaround you can disconnect the 5V signal in the USB cable, so that the board cannot be powered over USB.
-
-### Installation Guides for 3D Printers
+#### Installation Guides for 3D Printers
 * [General (English)](http://reprap.org/wiki/TMC2100)
 * [General (German)](http://reprap.org/wiki/TMC2100/de)
 * [General (Russian)](http://3deshnik.ru/blogs/akdzg/chto-zhe-delat-belami-tmc2100)
 * [RAMPS (English)](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
 * [Ultimaker UM1 (English)](http://umforum.ultimaker.com/index.php?/topic/10571-step-by-step-install-silentstepstick-drivers-on-um1/)
 
-### RAMPS 1.4 Notes
+#### Boards with USB Power Supply
+If you use a control board with USB power supply (like Arduino + RAMPS) then always ensure that ```VM``` is present, when you connect the board via USB.
+Otherwise the TMC21x0 is not powered via the internal voltage regulator and a high current can flow into ```VIO``` and this can damage the internal logic.
+As safety workaround you can disconnect the 5V signal in the USB cable, so that the board cannot be powered over USB.
+
+#### RAMPS 1.4 Notes
 If you remove all jumpers for MS1+MS2+MS3, then the SilentStepStick TMC2100 driver will be in 1/16 spreadCycle mode (CFG1=GND, CFG2=open, CFG3=open), because there is a pull-down resistor on MS1 on the RAMPS.
 But if you have not an original [RAMPS 1.4](http://reprap.org/wiki/RAMPS_1.4), then your schematics can be different and you have to check the MS-Pin configurations on you board.
 
