@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="11" fill="1" visible="no" active="no"/>
@@ -15279,10 +15279,10 @@ all kinds in 0402 and 0603</description>
 <plain>
 <wire x1="38.1" y1="40.64" x2="38.1" y2="43.18" width="1.016" layer="94"/>
 <wire x1="38.1" y1="25.4" x2="38.1" y2="27.94" width="1.016" layer="94"/>
-<text x="162.56" y="17.78" size="1.27" layer="95">Released under the Creative Commons
-Attribution Share-Alike License
-http://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="162.56" y="12.7" size="1.27" layer="95">Designed by Stephan Watterott (Watterott electronic) 
+<text x="162.56" y="22.86" size="1.27" layer="95" align="top-left">Released under the Creative Commons Attribution Share-Alike 
+License. http://creativecommons.org/licenses/by-sa/4.0/
+
+Designed by Stephan Watterott (Watterott electronic) 
 Based on the Trinamic TMC2100-BOB</text>
 <text x="90.17" y="50.8" size="1.778" layer="97" font="vector" ratio="10" align="top-left">CFG6/En
 GND  -&gt; Driver enabled
