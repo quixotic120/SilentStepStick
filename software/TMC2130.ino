@@ -11,9 +11,9 @@
 #define STEP_PIN  9 //step
 
 #define CS_PIN   10 //chip select
-#define MOSI_PIN 11 //SDI (Master-Out-Slave-In)
-#define MISO_PIN 12 //SDO (Master-In-Slave-Out)
-#define SCK_PIN  13 //clock
+#define MOSI_PIN 11 //SDI/MOSI (ICSP: 4, Uno: 11, Mega: 51)
+#define MISO_PIN 12 //SDO/MISO (ICSP: 1, Uno: 12, Mega: 50)
+#define SCK_PIN  13 //CLK/SCK  (ICSP: 3, Uno: 13, Mega: 52)
 
 //TMC2130 registers
 #define WRITE          0x80 //write flag
