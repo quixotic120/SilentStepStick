@@ -97,7 +97,7 @@ void setup()
   //set TMC2130 config
   tmc_write(WRITE|REG_GCONF,      0x00000001UL); //voltage on AIN is current reference
   tmc_write(WRITE|REG_IHOLD_IRUN, 0x00001010UL); //IHOLD=0x10, IRUN=0x10
-  tmc_write(WRITE|REG_CHOPCONF,   0x00008008UL); //native 256 microsteps
+  tmc_write(WRITE|REG_CHOPCONF,   0x00008008UL); //native 256 microsteps, MRES=0, TBL=1=24, TOFF=8
 
   //TMC2130 outputs on (LOW active)
   digitalWrite(EN_PIN, LOW);
