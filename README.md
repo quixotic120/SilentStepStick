@@ -3,6 +3,7 @@ The Silent-Step-Stick is a Stepper Motor Driver Board based on a [Trinamic TMC 2
 The driver boards are hardware compatible with [StepStick](http://reprap.org/wiki/StepStick) and [Pololu A4988](https://www.pololu.com/product/1182).
 
 [![SilentStepStick](https://github.com/watterott/SilentStepStick/raw/master/hardware/SilentStepStick_v12.jpg)](http://www.watterott.com/en/SilentStepStick)
+[![SilentStepStick Protector](https://github.com/watterott/SilentStepStick/raw/master/hardware/StepStick-Protector_v10.jpg)](http://www.watterott.com/en/SilentStepStick-Protector)
 
 
 ## Shop
@@ -11,11 +12,11 @@ The driver boards are hardware compatible with [StepStick](http://reprap.org/wik
   * [TMC2100 SilentStepStick (3.3-5V) with soldered Pin Headers](http://www.watterott.com/en/SilentStepStick-with-Pins)
 * Trinamic **TMC2130** based drivers (SPI for configuration)
   * [TMC2130 SilentStepStick (3.3-5V)](http://www.watterott.com/en/SilentStepStick-TMC2130)
-  * [TMC2130 SilentStepStick (3.3-5V) with soldered Pin Headers](http://www.watterott.com/en/SilentStepStick-TMC2130-with-Pins)
 * Accessories
   * [SilentStepStick Protector (with flyback diodes)](http://www.watterott.com/en/SilentStepStick-Protector)
   * [Suitable Heatsink 10x10mm](http://www.watterott.com/en/Pin-heatsink-square-ICK-S-10-x-10-x-125)
   * [Suitable Heatsink 10x6mm](http://www.watterott.com/en/Heatsink-for-DIL-IC-PLCC-und-SMD-10-x-6-mm)
+  * [Suitable Heatsink 8x6mm](http://www.watterott.com/en/Heatsinks-6-3x8mm)
 
 
 ## Features
