@@ -16,6 +16,7 @@ If you have problems like step losses then use the more powerful **1/16 spreadCy
 * [General (English)](http://reprap.org/wiki/TMC2100)
 * [General (German)](http://reprap.org/wiki/TMC2100/de)
 * [General (Russian)](http://3deshnik.ru/blogs/akdzg/chto-zhe-delat-belami-tmc2100)
+* [General (Japanese)](http://3dp0.com/silentstepstick)
 * [RAMPS (English)](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
 * [Ultimaker UMO + TMC2100 (English)](https://ultimaker.com/en/community/11571-step-by-step-installation-of-silentstepstick-drivers-on-umo)
 * [Ultimaker UMO + TMC2130 (English)](https://ultimaker.com/en/community/20090-step-by-step-installation-of-sss-tmc2130-on-umo)
