@@ -16,6 +16,7 @@ If you have problems like step losses then use the more powerful **1/16 spreadCy
 * [General (English)](http://reprap.org/wiki/TMC2100)
 * [General (German)](http://reprap.org/wiki/TMC2100/de)
 * [General (Russian)](http://3deshnik.ru/blogs/akdzg/chto-zhe-delat-belami-tmc2100)
+* [General (Japanese)](http://3dp0.com/silentstepstick)
 * [RAMPS (English)](http://www.instructables.com/id/Install-and-configure-SilentStepStick-in-RAMPS-TMC/)
 * [Ultimaker UMO + TMC2100 (English)](https://ultimaker.com/en/community/11571-step-by-step-installation-of-silentstepstick-drivers-on-umo)
 * [Ultimaker UMO + TMC2130 (English)](https://ultimaker.com/en/community/20090-step-by-step-installation-of-sss-tmc2130-on-umo)
@@ -48,8 +49,8 @@ The maximum motor current is 1.77A RMS and is set via the 0.11Ohm sense resistor
 ## What to consider when turning the power supply on or off?
 **Power on:**
 The motor supply voltage ```VM``` should come up first and then ```VIO```, because the internal logic of the TMC21x0 driver is powered from ```VM```.
-If you cannot ensure that ```VM``` is present before or at the same time as ```VIO``` then add a resistor with about 100-200 Ohm in series with ```VIO``` to protect the internal logic.
 Only after ```VIO``` is present and stable, the driver inputs (STEP, DIR, EN, CFG1...) can be driven with a high level.
+Because ```VM``` is a strong power supply with a high voltage, also ensure that there  cannot occur voltage spikes on power up. See [Pololu: Understanding Destructive LC Voltage Spikes](https://www.pololu.com/docs/0J16/all).
 
 **Power off:**
 If the motor is running/moving, then it is not allowed to switch off the power supply. Always make sure that the motor stands still on shutting down otherwise the TMC21x0 driver can get damaged.
