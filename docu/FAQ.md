@@ -50,7 +50,7 @@ The maximum motor current is 1.77A RMS and is set via the 0.11Ohm sense resistor
 **Power on:**
 The motor supply voltage ```VM``` should come up first and then ```VIO```, because the internal logic of the TMC21x0 driver is powered from ```VM```.
 Only after ```VIO``` is present and stable, the driver inputs (STEP, DIR, EN, CFG1...) can be driven with a high level.
-Because ```VM``` is a strong power supply with a high voltage, also ensure that there  cannot occur voltage spikes on power up. See [Pololu: Understanding Destructive LC Voltage Spikes](https://www.pololu.com/docs/0J16/all).
+Because ```VM``` is a strong power supply with a high voltage, also ensure that there cannot occur voltage spikes on power up. See [Pololu: Understanding Destructive LC Voltage Spikes](https://www.pololu.com/docs/0J16/all).
 
 **Power off:**
 If the motor is running/moving, then it is not allowed to switch off the power supply. Always make sure that the motor stands still on shutting down otherwise the TMC21x0 driver can get damaged.
